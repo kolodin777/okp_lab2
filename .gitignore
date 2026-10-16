@@ -1,0 +1,33 @@
+# Сборка Qt
+build/
+build-*/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Qt-генерируемые файлы
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+.qmake.stash
+Makefile
+Makefile.*
+*.pro.user
+*.pro.user.*
+
+# IDE
+.vscode/
+.idea/
+.qtcreator/
+CMakeLists.txt.user*
+
+# ОС
+.DS_Store
+Thumbs.db
